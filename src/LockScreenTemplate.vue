@@ -29,7 +29,7 @@
 
 <script>
     export default {
-        name: "lock-screen",
+        name: "lock-screen-template",
         props: {
             success: {default: null},
             freeze: {type: Boolean, default: false}
