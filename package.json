@@ -1,11 +1,18 @@
 {
-  "name": "vue-lock",
+  "private": false,
+  "name": "vue-lock-screen",
   "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "description": "lock screen with template for vuejs",
+  "main": "./dist/index.cjs.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vue serve VueLock.vue",
+    "build": "bili --name index --plugin vue --vue.css false"
   },
   "author": "Elad Gasner",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "bili": "^4.8.0",
+    "rollup-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.6.10"
+  }
 }
