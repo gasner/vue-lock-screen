@@ -1,5 +1,5 @@
 /*!
- * vue-lock-screen v0.0.1
+ * vue-lock-screen-template v0.0.1
  * (c) Elad Gasner
  * Released under the MIT License.
  */
@@ -40,7 +40,7 @@ var __vue_create_injector__ = _interopDefault(require('vue-runtime-helpers/dist/
 //
 //
 var script = {
-  name: "lock-screen",
+  name: "lock-screen-template",
   props: {
     success: {
       "default": null
@@ -311,8 +311,8 @@ var __vue_staticRenderFns__ = [];
 
 var __vue_inject_styles__ = function __vue_inject_styles__(inject) {
   if (!inject) return;
-  inject("data-v-3fcf4abc_0", {
-    source: "@keyframes fade-out-data-v-3fcf4abc{to{opacity:0}}main[data-v-3fcf4abc]{box-sizing:border-box;text-align:center;user-select:none}svg#pattern-login[data-v-3fcf4abc]{cursor:pointer;width:400px;height:400px;max-width:80vmin;max-height:80vmin;fill:transparent;stroke:#777;stroke-width:.3px;display:inline-block}svg#pattern-login circle.glow[data-v-3fcf4abc]{stroke:#37f}svg#pattern-login path#indicator[data-v-3fcf4abc]{stroke:#4d4d4d}.glow[data-v-3fcf4abc]{filter:url(#glow)}svg#pattern-login.success circle.glow[data-v-3fcf4abc]{stroke:#3f7}svg#pattern-login.success path#indicator[data-v-3fcf4abc]{stroke:#3f7}svg#pattern-login.error circle.glow[data-v-3fcf4abc],svg#pattern-login.error path#indicator[data-v-3fcf4abc]{stroke:#f33}",
+  inject("data-v-4d29fd21_0", {
+    source: "@keyframes fade-out-data-v-4d29fd21{to{opacity:0}}main[data-v-4d29fd21]{box-sizing:border-box;text-align:center;user-select:none}svg#pattern-login[data-v-4d29fd21]{cursor:pointer;width:400px;height:400px;max-width:80vmin;max-height:80vmin;fill:transparent;stroke:#777;stroke-width:.3px;display:inline-block}svg#pattern-login circle.glow[data-v-4d29fd21]{stroke:#37f}svg#pattern-login path#indicator[data-v-4d29fd21]{stroke:#4d4d4d}.glow[data-v-4d29fd21]{filter:url(#glow)}svg#pattern-login.success circle.glow[data-v-4d29fd21]{stroke:#3f7}svg#pattern-login.success path#indicator[data-v-4d29fd21]{stroke:#3f7}svg#pattern-login.error circle.glow[data-v-4d29fd21],svg#pattern-login.error path#indicator[data-v-4d29fd21]{stroke:#f33}",
     map: undefined,
     media: undefined
   });
@@ -320,7 +320,7 @@ var __vue_inject_styles__ = function __vue_inject_styles__(inject) {
 /* scoped */
 
 
-var __vue_scope_id__ = "data-v-3fcf4abc";
+var __vue_scope_id__ = "data-v-4d29fd21";
 /* module identifier */
 
 var __vue_module_identifier__ = undefined;
@@ -329,7 +329,7 @@ var __vue_module_identifier__ = undefined;
 var __vue_is_functional_template__ = false;
 /* style inject SSR */
 
-var VueLockScreen = __vue_normalize__({
+var LockScreenTemplate = __vue_normalize__({
   render: __vue_render__,
   staticRenderFns: __vue_staticRenderFns__
 }, __vue_inject_styles__, __vue_script__, __vue_scope_id__, __vue_is_functional_template__, __vue_module_identifier__, __vue_create_injector__, undefined);
@@ -338,7 +338,7 @@ var index = {
   install: function install(Vue, options) {
     // Let's register our component globally
     // https://vuejs.org/v2/guide/components-registration.html
-    Vue.component("vue-lock", VueLockScreen);
+    Vue.component("lock-screen-template", LockScreenTemplate);
   }
 };
 

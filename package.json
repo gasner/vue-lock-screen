@@ -1,14 +1,19 @@
 {
   "private": false,
   "name": "vue-lock-screen-template",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": "https://github.com/gasner/vue-lock-screen.git",
   "description": "lock screen with template for vuejs",
-  "main": "./dist/index.cjs.js",
+  "main": "./dist/index.js",
   "scripts": {
     "dev": "vue serve LockScreenTemplate.vue",
     "build": "bili --name index --plugin vue --vue.css false"
   },
+  "keywords": [
+    "vue",
+    "vue-lock-screen",
+    "lock screen template"
+  ],
   "author": "Elad Gasner",
   "license": "MIT",
   "devDependencies": {
